@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f8ff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    height: max-content;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #239ea7;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    margin-right: 7px;
+}
+
+.content-section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+    height: max-content;
+}
+
+/* Motto dan Nilai */
+.content-item{
+    padding: 10px 25px;
+    margin-bottom: 50px;
+}
+.content-item h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+.content-item h5{
+    text-decoration: underline;
+}
+.content-item .text{
+    font-size: 12px;
+}
+.content-item ul{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.content-item p, ol{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.motto p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.tata-nilai, .yel-yel ul{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* peta */
+.peta{
+    height: 400px;
+    width: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* UKP */
+.ukp-services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+tbody{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* UKM */
+.ukm-services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+tbody{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Pendaftaran */
+.btn-primary, .btn-danger {
+    margin-bottom: 16px;
+    font-size: 13px;
+}
+.pendaftaran p, ul{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 9px;
+}
+.pendaftaran h4{
+    font-size: 20px;
+}
+
+/* Tarif Pelayanan */
+.tarif-pelayanan h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+tbody{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Contact */
+.content-section img{
+    display: flex;
+    position: relative;
+    max-height: 400px;
+    width: auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Laporan */
+.laporan h5{
+    margin-top: 8px;
+    color: #000000;
+}
+
+/* Dokumentasi */
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.photo-item {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    height: 400px;
+}
+.photo-item .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.photo-item:hover .icon {
+    opacity: 1;
+}
+.photo-item .desc {
+    padding: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/* WBS */
+.wbs p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 9px;
+}
+.wbs h5{
+    color: rgb(255, 33, 33);
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+.wbs h4{
+    font-size: 22px;
+    margin-top: 8px;
+    color: #3393fa;
+}
+
+/* PPID */
+.ppid {
+    height: 420px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 80px;
+    overflow-y: auto;
+}
+.list-group-item {
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+.list-group-item:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+    color: #007bff;
+}
+.list-group-item:active {
+    background-color: rgba(0, 123, 255, 0.2);
+    color: #007bff;
+}
+.sidebar h5 {
+    color: #007bff;
+    font-weight: bold;
+}
+.list-group-item a {
+    color: inherit;
+    text-decoration: none;
+}
+.footer {
+    margin-bottom: 0;
+    background-color: #239ea7;
+}

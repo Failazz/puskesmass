@@ -1,0 +1,83 @@
+.header{
+    margin-top: 100px;
+    margin-bottom: auto;
+    padding: auto;
+}
+.text-justify p{
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding-right: 30px;
+}
+.text-justify h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+}
+.content{
+    padding: 30px;
+    
+}
+.images{
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    transition: 1.5s;
+}
+.images img{
+    width: 100%;
+}
+.wrapper{
+    width:5000px;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.text{
+    padding: 20px;
+}
+
+
+#slide-1:target~.images{
+    margin-left: 0px;
+}
+#slide-2:target~.images{
+    margin-left: -100%;
+}
+#slide-3:target~.images{
+    margin-left: -200%;
+}
+
+.navigation a{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: #ad2020;
+    font-size: 0px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.navigation a:hover{
+    background-color: #666;
+}
+
+.navigation{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 660px;
+    right: 0px;
+    top: 585px;
+    text-align: center;
+    border: 2px solid;
+}
+
+.artikel{
+    padding: 20px;
+}
+
+.footer{
+    margin-bottom: 0px;
+}

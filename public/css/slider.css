@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+.slide-contrainer{
+    max-width: 3000px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 30px;
+}
+.slide-content{
+    margin: 0 40px;
+}
+.card{
+    width: 370px;
+    border: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+.image-content, .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 8px;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+.card-image{
+    position: relative;
+    height: auto;
+    width: 350px;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.card-img{
+    border-radius: 10px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.isi{
+    font-size: 14px;
+    color: rgb(61, 62, 62);
+    text-align: justify;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(158, 158, 158);
+    border-radius: 7px;
+    margin: 14px;
+    padding: 7px 12px;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+.button:hover{
+    background-color: rgb(197, 197, 197);
+}
+
